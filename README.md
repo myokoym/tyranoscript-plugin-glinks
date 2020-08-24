@@ -3,6 +3,40 @@
 ティラノスクリプト用プラグイン（マクロ）です。
 複数のglinkタグを簡単に整列（中央揃え）できます。
 
+## 使用例
+
+### プラグイン呼び出し
+
+```
+[plugin name="glinks" button_width=742 margin_top=180]
+```
+
+### マクロ呼び出し
+
+選択肢2つ:
+
+```
+[glinks21 text="【１】選択肢　その１" target=*select1 color=selbutton]
+[glinks22 text="【２】選択肢　その２" target=*select2 color=selbutton]
+```
+
+選択肢3つ:
+
+```
+[glinks31 text="【１】選択肢　その１" target=*select1 color=selbutton]
+[glinks32 text="【２】選択肢　その２" target=*select2 color=selbutton]
+[glinks33 text="【３】選択肢　その３" target=*select3 color=selbutton]
+```
+
+選択肢4つ:
+
+```
+[glinks41 text="【１】選択肢　その１" target=*select1 color=selbutton]
+[glinks42 text="【２】選択肢　その２" target=*select2 color=selbutton]
+[glinks43 text="【３】選択肢　その３" target=*select3 color=selbutton]
+[glinks44 text="【４】選択肢　その４" target=*select4 color=selbutton]
+```
+
 ## リファレンス
 
 ### プラグインの引数
@@ -38,7 +72,7 @@
 |target|×|glinkタグのtargetパラメータにそのまま渡されます。|
 |color|×|glinkタグのcolorパラメータにそのまま渡されます。|
 
-上記以外のパラメータを設定したい場合、init.ksを改変ください。
+上記以外のパラメータを渡したい場合、init.ksを改変してください。
 
 ## ライセンス
 
