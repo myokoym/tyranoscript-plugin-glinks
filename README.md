@@ -8,7 +8,7 @@
 ### プラグイン呼び出し
 
 ```
-[plugin name="glinks" button_width=742 margin_top=180]
+[plugin name="glinks" button_width=400]
 ```
 
 ### マクロ呼び出し
@@ -16,25 +16,25 @@
 選択肢2つ:
 
 ```
-[glinks21 text="【１】選択肢　その１" target=*select1 color=selbutton]
-[glinks22 text="【２】選択肢　その２" target=*select2 color=selbutton]
+[glinks21 text="【１】選択肢　その１" target=*select1 color=btn_32_lime]
+[glinks22 text="【２】選択肢　その２" target=*select2 color=btn_32_green]
 ```
 
 選択肢3つ:
 
 ```
-[glinks31 text="【１】選択肢　その１" target=*select1 color=selbutton]
-[glinks32 text="【２】選択肢　その２" target=*select2 color=selbutton]
-[glinks33 text="【３】選択肢　その３" target=*select3 color=selbutton]
+[glinks31 text="【１】選択肢　その１" target=*select1 color=btn_32_lime]
+[glinks32 text="【２】選択肢　その２" target=*select2 color=btn_32_green]
+[glinks33 text="【３】選択肢　その３" target=*select3 color=btn_32_blue]
 ```
 
 選択肢4つ:
 
 ```
-[glinks41 text="【１】選択肢　その１" target=*select1 color=selbutton]
-[glinks42 text="【２】選択肢　その２" target=*select2 color=selbutton]
-[glinks43 text="【３】選択肢　その３" target=*select3 color=selbutton]
-[glinks44 text="【４】選択肢　その４" target=*select4 color=selbutton]
+[glinks41 text="【１】選択肢　その１" target=*select1 color=btn_32_lime]
+[glinks42 text="【２】選択肢　その２" target=*select2 color=btn_32_green]
+[glinks43 text="【３】選択肢　その３" target=*select3 color=btn_32_blue]
+[glinks44 text="【４】選択肢　その４" target=*select4 color=btn_32_purple]
 ```
 
 ## リファレンス
@@ -43,7 +43,7 @@
 
 |パラメータ|必須|デフォルト値|解説|
 |---|---|---|---|
-|button_width|〇|-|ボタンの横幅をピクセルで指定してください。この数値を基に中央揃えします。画像ではなく色を指定する場合、ずれる可能性があるため、適宜調整してください。|
+|button_width|〇|-|ボタンの横幅をピクセルで指定してください。この数値を基に中央揃えします。画像ではなく色を指定する場合、文字数によってずれるため適宜調整してください。|
 |window_width|×|1280|ウィンドウの横幅をピクセルで指定してください。この数値を基に中央揃えします。|
 |window_height|×|720|ウィンドウの高さをピクセルで指定してください。この数値を基に中央揃えします。|
 |margin_top|×|0|上部のマージン（余白）をピクセルで指定してください。キャラクターの顔をボタンで隠したくない場合等に有用です。|
