@@ -1,9 +1,9 @@
 [iscript]
 tf.button_width = parseInt(mp.button_width)
-tf.window_width = parseInt(mp.window_width) || 1280
-tf.window_height = parseInt(mp.window_height) || 720
-tf.margin_top = parseInt(mp.margin_top) || 0
-tf.margin_bottom = parseInt(mp.margin_bottom) || 184
+tf.window_width = parseInt(mp.window_width || 1280)
+tf.window_height = parseInt(mp.window_height || 720)
+tf.margin_top = parseInt(mp.margin_top || 0)
+tf.margin_bottom = parseInt(mp.margin_bottom || 184)
 
 tf.x = tf.window_width / 2 - tf.button_width / 2
 tf.area_height = tf.window_height - tf.margin_top - tf.margin_bottom
